@@ -54,7 +54,7 @@ function prepareConfigFile ([String]$version, $instance, [String]$collation, $in
     ISSVCACCOUNT=""$ServiceAccount""
     ISSVCSTARTUPTYPE=""Automatic""
     BROWSERSVCSTARTUPTYPE=""Automatic""
-    SQLSYSADMINACCOUNTS=""PMMR\DBA"" ""$ServiceAccount""
+    SQLSYSADMINACCOUNTS=""$ServiceAccount""
     SECURITYMODE=""SQL""
     SQMREPORTING=""False""
     SUPPRESSPRIVACYSTATEMENTNOTICE=""True""
@@ -64,18 +64,8 @@ function prepareConfigFile ([String]$version, $instance, [String]$collation, $in
 }
 
 
-
-##     ##    ###    #### ##    ## 
-###   ###   ## ##    ##  ###   ## 
-#### ####  ##   ##   ##  ####  ## 
-## ### ## ##     ##  ##  ## ## ## 
-##     ## #########  ##  ##  #### 
-##     ## ##     ##  ##  ##   ### 
-##     ## ##     ## #### ##    ##
-
-
 ######################
-# Getting Parameters #
+# Starting the main code from here #
 ######################
 
 
