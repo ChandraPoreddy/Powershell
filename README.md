@@ -1,1 +1,1 @@
-# Powershell
+# Install SQL server via Powershell
